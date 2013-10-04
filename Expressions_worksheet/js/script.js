@@ -1,7 +1,7 @@
 // Justin Henry 10-4-2013 Expressions Worksheet
 
 //Dog Years
-var humanAge = 1; //declaration and definition
+var humanAge = 1; //declaration and definition of dog age in human years
 var dogAge; //declaration
 
 dogAge = humanAge * 7; //definition and formula for calculating dog years based on given human years
@@ -9,9 +9,9 @@ dogAge = humanAge * 7; //definition and formula for calculating dog years based 
 console.log("Sparky is " + humanAge + " human years old, which is " + dogAge + " in dog years."); //Final product
 
 //Slice of Pie Part I
-var slices = 8; //declaration and definition
-var people = 10; //declaration and definition
-var pizzas = 4; //declaration and definition
+var slices = 8; //declaration and definition of slices per pizza
+var people = 10; //declaration and definition of people at the party
+var pizzas = 4; //declaration and definition of the number of pizzas
 var slicesPer; //declaration
 
 slicesPer = (pizzas * slices) / people; //definition and formula for calculating how many slices each person gets
@@ -26,7 +26,7 @@ sparkySlices = (pizzas * slices) - (parseInt (slicesPer) * people); //definition
 console.log("Sparky got " + sparkySlices + " slices of pizza.") //Final difference
 
 //Average Shopping Bill
-var shoppingWeeks = [120, 115, 107, 110, 121]; //declaration and definition of array with elements 0-4
+var shoppingWeeks = [120, 115, 107, 110, 121]; //declaration and definition of array with elements 0-4 representing amounts spent per week
 var shoppingTotal = (shoppingWeeks[0] + shoppingWeeks[1] + shoppingWeeks[2] + shoppingWeeks[3] + shoppingWeeks[4]); //declaration and definition of formula to add array element values
 var shoppingAvg = shoppingTotal / 5; //declaration and definition of formula for finding average
 
@@ -41,7 +41,7 @@ var noTaxPrice; //declaration
 var taxPrice; //declaration
 
 item = "pizza"; //definition
-originalPrice = 100; //definition
+originalPrice = 100; //definition of item cost before tax and discount
 salesTax = .0825; //definition
 discount = 20; //definition
 
