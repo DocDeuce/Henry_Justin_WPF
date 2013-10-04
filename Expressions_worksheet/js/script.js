@@ -19,11 +19,11 @@ slicesPer = (pizzas * slices) / people; //definition and formula for calculating
 console.log("Each person ate " + slicesPer + " slices of pizza at the party."); //Final quotient
 
 //Slice of Pie Part II
-var sparkySlices;
+var sparkySlices; //declaration
 
-sparkySlices = (pizzas * slices) - (parseInt (slicesPer) * people);
+sparkySlices = (pizzas * slices) - (parseInt (slicesPer) * people); //definition and formula for calculating quotient remainder as integer
 
-console.log("Sparky got " + sparkySlices + " slices of pizza.")
+console.log("Sparky got " + sparkySlices + " slices of pizza.") //Final difference
 
 //Average Shopping Bill
 
