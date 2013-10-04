@@ -33,20 +33,20 @@ var shoppingAvg = shoppingTotal / 5; //declaration and definition of formula for
 console.log("You have spent a total of $" + shoppingTotal + " on groceries over 5 weeks. That is an average of $" + shoppingAvg + " per week."); //Final average
 
 //Discounts
-var item;
-var originalPrice;
-var salesTax;
-var discount;
-var noTaxPrice;
-var taxPrice;
+var item; //declaration
+var originalPrice; //declaration
+var salesTax; //declaration
+var discount; //declaration
+var noTaxPrice; //declaration
+var taxPrice; //declaration
 
-item = "pizza";
-originalPrice = 100;
-salesTax = .0825;
-discount = 20;
+item = "pizza"; //definition
+originalPrice = 100; //definition
+salesTax = .0825; //definition
+discount = 20; //definition
 
-noTaxPrice = originalPrice - (originalPrice * (1 / discount));
-taxPrice = noTaxPrice + (noTaxPrice * salesTax);
+noTaxPrice = originalPrice - (originalPrice * (1 / discount)); //declaration and definition with formula for discounted price before tax
+taxPrice = noTaxPrice + (noTaxPrice * salesTax); //declaration and definition with formula for discounted price after tax
 
-console.log("Your " + item + " was originally $" + originalPrice + ", but after a " + discount + "% discount, it is now $" + noTaxPrice + " without tax, and $" + taxPrice + " with tax.");
+console.log("Your " + item + " was originally $" + originalPrice + ", but after a " + discount + "% discount, it is now $" + noTaxPrice + " without tax, and $" + taxPrice + " with tax."); //Final results
 
