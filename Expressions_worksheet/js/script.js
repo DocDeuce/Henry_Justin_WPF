@@ -26,10 +26,10 @@ sparkySlices = (pizzas * slices) - (parseInt (slicesPer) * people); //definition
 console.log("Sparky got " + sparkySlices + " slices of pizza.") //Final difference
 
 //Average Shopping Bill
-var shoppingWeeks = [120, 115, 107, 110, 121];
-var shoppingTotal = (shoppingWeeks[0] + shoppingWeeks[1] + shoppingWeeks[2] + shoppingWeeks[3] + shoppingWeeks[4]);
-var shoppingAvg = shoppingTotal / 5;
+var shoppingWeeks = [120, 115, 107, 110, 121]; //declaration and definition of array with elements 0-4
+var shoppingTotal = (shoppingWeeks[0] + shoppingWeeks[1] + shoppingWeeks[2] + shoppingWeeks[3] + shoppingWeeks[4]); //declaration and definition of formula to add array element values
+var shoppingAvg = shoppingTotal / 5; //declaration and definition of formula for finding average
 
-console.log("You have spent a total of $" + shoppingTotal + " on groceries over 5 weeks. That is an average of $" + shoppingAvg + " per week.");
+console.log("You have spent a total of $" + shoppingTotal + " on groceries over 5 weeks. That is an average of $" + shoppingAvg + " per week."); //Final average
 
 //Discounts
