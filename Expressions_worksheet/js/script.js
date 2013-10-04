@@ -33,3 +33,18 @@ var shoppingAvg = shoppingTotal / 5; //declaration and definition of formula for
 console.log("You have spent a total of $" + shoppingTotal + " on groceries over 5 weeks. That is an average of $" + shoppingAvg + " per week."); //Final average
 
 //Discounts
+var item;
+var originalPrice;
+var salesTax;
+var discount;
+var noTaxPrice;
+var taxPrice;
+
+item = "pizza";
+originalPrice = 100;
+salesTax = .0825;
+discount = 20;
+
+noTaxPrice = (originalPrice - (originalPrice * (1 / discount));
+taxPrice = noTaxPrice + (noTaxPrice * salesTax);
+
