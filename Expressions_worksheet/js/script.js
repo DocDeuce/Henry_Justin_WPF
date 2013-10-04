@@ -45,6 +45,8 @@ originalPrice = 100;
 salesTax = .0825;
 discount = 20;
 
-noTaxPrice = (originalPrice - (originalPrice * (1 / discount));
+noTaxPrice = originalPrice - (originalPrice * (1 / discount));
 taxPrice = noTaxPrice + (noTaxPrice * salesTax);
+
+console.log("Your " + item + " was originally $" + originalPrice + ", but after a " + discount + "% discount, it is now $" + noTaxPrice + " without tax, and $" + taxPrice + " with tax.");
 
