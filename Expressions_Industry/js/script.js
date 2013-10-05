@@ -25,19 +25,3 @@ document.write("Assignment Grade 2: " + assignArray[0] + "<BR>");
 document.write("Quiz Grade : " + gradeArray[1] + "<BR>");
 document.write("Test Grade : " + gradeArray[2] + "<BR>");
 document.write("Class Grade : " + gradeArray[3] + "<BR>");
-
-
-
-/*
-    [0][0] = "Assignment Grade 1";
-    [1][0] = "Assignment Grade 2";
-    [2][0] = "Quiz Grade";
-    [3][0] = "Test Grade";
-    [4][0] = "Class Grade";
-
-    [0][1] = assignGrade1;
-    [1][1] = assignGrade2;
-    [2][1] = quizGrade;
-    [3][1] = testGrade;
-    [4][1] = finalAvg;
-*/
