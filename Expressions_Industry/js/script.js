@@ -8,7 +8,7 @@ var assignGrade2 = prompt("Enter student's second assignment grade", "");
 var quizGrade = prompt("Enter student's quiz grade", "");
 var testGrade = prompt("Enter student's test grade", "");
 
-var assignAvg = (assignGrade1 + assignGrade2) / 2;
+var assignAvg = (parseInt(assignGrade1) + parseInt(assignGrade2))/2;
 
 var assignFinal = assignWeight * (assignAvg/100);
 var quizFinal = quizWeight * (quizGrade/100);
