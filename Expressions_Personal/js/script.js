@@ -6,6 +6,7 @@ var gasPrice = prompt("What is the current price of gas in your area? ", "");
 
 var milesPerDay = milesToWork * 2;
 var milesPerWeek = milesPerDay * daysOfWork;
-var gallonsPerWeek = milesPerGallon / milesPerWeek;
+var gallonsPerWeek = milesPerWeek / milesPerGallon;
 var gasBudget = gallonsPerWeek * gasPrice;
 
+document.write(gasBudget);
