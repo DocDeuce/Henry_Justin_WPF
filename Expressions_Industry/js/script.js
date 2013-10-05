@@ -17,7 +17,9 @@ var testFinal = testWeight * (testGrade/100); //Declaration, definition, and for
 var finalAvg = assignFinal + quizFinal + testFinal; //Declaration, definition, and formula for calculating student's grade
 
 document.write("Assignments have a weight of " + assignWeight + "%, quizzes have a weight of " + quizWeight + "%, and tests have a weight of " + testWeight + "%. Based on this and the grades you entered, your student's total class grade is " + finalAvg + "." + "<BR>" + "<BR>");
-//Summary of information entered and calculated
+//Summary of information entered and calculated displayed in browser
+console.log("Assignments have a weight of " + assignWeight + "%, quizzes have a weight of " + quizWeight + "%, and tests have a weight of " + testWeight + "%. Based on this and the grades you entered, your student's total class grade is " + finalAvg + "." + "<BR>" + "<BR>");
+//Summary of information entered and calculated displayed in console
 
 var gradeArray = [assignArray, quizGrade, testGrade, finalAvg]; //Declaration and definition of array containing all grades
 
