@@ -8,17 +8,25 @@ var assignGrade2 = prompt("Enter student's second assignment grade", "");
 var quizGrade = prompt("Enter student's quiz grade", "");
 var testGrade = prompt("Enter student's test grade", "");
 
-var assignAvg = (parseInt(assignGrade1) + parseInt(assignGrade2))/2;
+var assignArray = [assignGrade1, assignGrade2];
+var assignAvg = (parseInt(assignArray[0]) + parseInt(assignArray[1]))/2;
 
 var assignFinal = assignWeight * (assignAvg/100);
 var quizFinal = quizWeight * (quizGrade/100);
 var testFinal = testWeight * (testGrade/100);
 var finalAvg = assignFinal + quizFinal + testFinal;
 
-var gradeArray = [["Assignment Grade 1", assignGrade1],["Assignment Grade 2", assignGrade2],["Quiz Grade", quizGrade],["Test Grade", testGrade],["Class Grade", finalAvg]];
+document.write("Assignments have a weight of " + assignWeight + "%, quizzes have a weight of " + quizWeight + "%, and tests have a weight of " + testWeight + "%. Based on this and the grades you entered, your student's total class grade is " + finalAvg + "." + "<BR>" + "<BR>");
 
-document.write(gradeArray);
-document.write("Assignments have a weight of " + assignWeight + "%, quizzes have a weight of " + quizWeight + "%, and tests have a weight of " + testWeight + "%. Based on this and the grades you entered, your student's total class grade is " + finalAvg + ".");
+var gradeArray = [assignArray, quizGrade, testGrade, finalAvg];
+
+document.write("Assignment Grade 1: " + assignArray[0] + "<BR>");
+document.write("Assignment Grade 2: " + assignArray[0] + "<BR>");
+document.write("Quiz Grade : " + gradeArray[1] + "<BR>");
+document.write("Test Grade : " + gradeArray[2] + "<BR>");
+document.write("Class Grade : " + gradeArray[3] + "<BR>");
+
+
 
 /*
     [0][0] = "Assignment Grade 1";
