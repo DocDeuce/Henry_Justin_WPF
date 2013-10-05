@@ -45,7 +45,7 @@ originalPrice = 100; //definition of item cost before tax and discount
 salesTax = .0825; //definition
 discount = 20; //definition
 
-noTaxPrice = originalPrice - (originalPrice * (1 / discount)); //declaration and definition with formula for discounted price before tax
+noTaxPrice = originalPrice - (originalPrice * (discount/100)); //declaration and definition with formula for discounted price before tax
 taxPrice = noTaxPrice + (noTaxPrice * salesTax); //declaration and definition with formula for discounted price after tax
 
 console.log("Your " + item + " was originally $" + originalPrice + ", but after a " + discount + "% discount, it is now $" + noTaxPrice + " without tax, and $" + taxPrice + " with tax."); //Final results
