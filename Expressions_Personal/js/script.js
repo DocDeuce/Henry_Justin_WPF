@@ -1,4 +1,7 @@
+//Justin Henry 10-7-2013
+
 //Calculating how much one would need to spend on gas in a week
+
 var milesPerGallon = prompt("Your vehicle's fuel economy in miles per gallon is", ""); //Prompt for user to enter a value for their vehicle's fuel economy
 var milesToWork = prompt("In miles, how far is work from home?", ""); //Prompt for user to enter a value for distance to work in miles
 var daysOfWork = prompt("How may days of the week do you work?", ""); //Prompt for user to enter a value for the number of days they work in a week

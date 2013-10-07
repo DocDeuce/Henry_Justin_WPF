@@ -1,4 +1,7 @@
+//Justin Henry 10-7-2013
+
 //Calculating student grade average with average of Tests, Quizzes, and Assignments having different weight
+
 var testWeight = 50; //Declaration and definition of the percentage of weight for tests
 var quizWeight = 30; //Declaration and definition of the percentage of weight for quizzes
 var assignWeight = 20; //Declaration and definition of the percentage of weight for assignments
