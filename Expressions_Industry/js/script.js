@@ -1,4 +1,4 @@
-//Justin Henry 10-7-2013
+//Justin Henry 10-7-2013 Expressions_Industry
 
 //Calculating student grade average with average of Tests, Quizzes, and Assignments having different weight
 
