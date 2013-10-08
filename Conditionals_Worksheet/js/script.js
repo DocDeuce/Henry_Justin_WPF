@@ -17,3 +17,23 @@ else
     consle.log("You only have " + gasLeft + "gallons of gas in your tank, better get gas now while you can!");
 }
 
+
+//Check the Login
+var userName = "BlacKoder";
+var userPswd = "MarkIsGarvE";
+
+var enteredName = prompt("Enter username:", "");
+var enteredPswd = prompt("Enter password:", "");
+
+if (enteredName == userName && enteredPswd == userPswd)
+{
+    console.log("Welcome, " + userName + "!");
+}
+if (!(enteredName == userName))
+{
+    console.log("User not found. Try again.");
+}
+if (!(enteredPswd == userPswd))
+{
+    console.log("Password does not match our records.");
+}
