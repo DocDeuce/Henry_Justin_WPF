@@ -4,7 +4,7 @@
 
 alert("It's one hour until last call and you still haven't found a hookup for the night. You're sober and lonely, the pickings are slim, and your best bet is the ugly one by the bar. You're probably going to need a few more drinks before you go that route, though.");
 //An alert explaining the situation to the user
-var rate = prompt("On a scale of 1-10, how ugly is the person you're looking at?", "");
+var rate = prompt("On a scale of 1-10, (1 being 'not very attractive' and 10 being 'hideous') how ugly is the person you're looking at?", "");
 //Prompt for user to enter a number representing their current perception of ugliness in another
 var date = prompt("How many weeks has it been since your last date?", "");
 //Prompt for user to enter the number of weeks since their last date
