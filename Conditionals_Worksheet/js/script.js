@@ -6,15 +6,15 @@ var gauge = 25;
 var capacity = 18.5;
 
 var gasLeft = capacity * (gauge / 100);
-var milesLeft = capacity * mpg;
+var milesLeft = gasLeft * mpg;
 
 if (milesLeft > 200)
 {
-    consle.log("Yes, you can make it without stopping for gas!");
+    console.log("Yes, you can make it without stopping for gas!");
 }
 else
 {
-    consle.log("You only have " + gasLeft + "gallons of gas in your tank, better get gas now while you can!");
+    console.log("You only have " + gasLeft + " gallons of gas in your tank, better get gas now while you can!");
 }
 
 
@@ -37,3 +37,4 @@ if (!(enteredPswd == userPswd))
 {
     console.log("Password does not match our records.");
 }
+
