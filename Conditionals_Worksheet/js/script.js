@@ -38,3 +38,20 @@ if (!(enteredPswd == userPswd))
     console.log("Password does not match our records.");
 }
 
+//Movie Ticket Price
+var ticketPrice = 12;
+var discounted = 7;
+
+var customerAge = 22;
+var showTime = 4;
+
+if ((customerAge >= 55 || customerAge < 10) || (showTime >= 3 && showTime <= 5))
+{
+    console.log("The ticket price is $" + discounted);
+}
+else
+{
+    console.log("The ticket price is $" + ticketPrice);
+}
+
+
