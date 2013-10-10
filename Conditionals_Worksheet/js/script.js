@@ -39,19 +39,19 @@ if (!(enteredPswd === userPswd)) //If the password entered does NOT match the on
 }
 
 //Movie Ticket Price
-var ticketPrice = 12;
-var discounted = 7;
+var ticketPrice = 12; //Standard ticket price
+var discounted = 7; //Discounted ticket price
 
-var customerAge = 22;
-var showTime = 4;
+var customerAge = 22; //Age of the customer
+var showTime = 4; //The time the movie starts
 
-if ((customerAge >= 55 || customerAge < 10) || (showTime >= 3 && showTime <= 5))
+if ((customerAge >= 55 || customerAge < 10) || (showTime >= 3 && showTime <= 5)) //Checks if customer is over 55 or under 10, also checks if movie is playing between 3 and 5
 {
-    console.log("The ticket price is $" + discounted);
+    console.log("The ticket price is $" + discounted); //Code to perform if any one of the conditions are true
 }
 else
 {
-    console.log("The ticket price is $" + ticketPrice);
+    console.log("The ticket price is $" + ticketPrice); //Code to perform if all conditions are false
 }
 
 
