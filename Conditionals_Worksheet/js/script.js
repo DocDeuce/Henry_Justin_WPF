@@ -54,4 +54,4 @@ else
     console.log("The ticket price is $" + ticketPrice); //Code to perform if all conditions are false
 }
 
-
+*/
