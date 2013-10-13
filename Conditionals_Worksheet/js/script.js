@@ -17,7 +17,7 @@ else
     console.log("You only have " + gasLeft + " gallons of gas in your tank, better get gas now while you can!"); //Code performed if condition is false
 }
 
-
+/*
 //Check the Login
 var userName = "BlacKoder"; //Stored Username
 var userPswd = "MarkIsGarvE"; //Stored Password
