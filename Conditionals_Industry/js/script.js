@@ -1,1 +1,1 @@
-alert("This is in the js file");
+//Justin Henry 10-12-2013 Conditionals Industry
