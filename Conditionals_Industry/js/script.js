@@ -10,7 +10,7 @@ alert("Now is the time to get your tickets for the show I'll be performing in yo
 
 var age = prompt("How old are you?", ""); //User enters numeric age
 if ((isNaN(age)) || (age === "")){ //Validates age entry by checking if age is not a number or left blank
-    alert("Please enter a numeric value for your age."); //Alert executed if either condition is true, a loop would come in handy here but I guess we're not using those in this course
+    alert("Please enter a numeric value for your age."); //Alert executed if either condition is true, a loop would come in handy here but I guess we're not using those in this part of the course
 }
 
 var list = prompt("Are you on the mailing list? Please type 'yes' or 'no'", ""); //User enters yes or no
