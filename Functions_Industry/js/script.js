@@ -13,10 +13,14 @@ console.log("To make a profit of $" + profit + ", sell each unit for $" + sellPr
 
 
 function priceCalc(){
-    var units = 100;
-    var cost = 200;
-    var profit = 300;
-    var price = (profit + cost) / units;
+    var units;
+    var cost;
+    var profit;
+    var price;
+    units = 100;
+    cost = 200;
+    profit = 300;
+    price = (profit + cost) / units;
     console.log("To make a profit of $" + profit + ", sell each unit for $" + price + ".");
 }
 
