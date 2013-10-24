@@ -1,6 +1,6 @@
 // Justin Henry 10-24-2013 Functions Industry
 
-var sellPrice = priceCalc(100, 200, 300);
+/*var sellPrice = priceCalc(100, 200, 300);
 
 function priceCalc(units, cost, profit){
     var price = (profit + cost) / units;
@@ -8,3 +8,16 @@ function priceCalc(units, cost, profit){
 }
 
 console.log("To make a profit of $" + profit + ", sell each unit for $" + sellPrice + ".");
+*/
+
+
+
+function priceCalc(){
+    var units = 100;
+    var cost = 200;
+    var profit = 300;
+    var price = (profit + cost) / units;
+    console.log("To make a profit of $" + profit + ", sell each unit for $" + price + ".");
+}
+
+priceCalc()
