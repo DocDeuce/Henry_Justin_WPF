@@ -1,5 +1,7 @@
 // Justin Henry 10-23-13 Functions Personal
 
+//how long will a trip take when the distance and travel velocity are known?
+
 var driveTime = timeCalc(100, 80); //A variable to hold the results of the function with 100 representing distance in miles and 80 representing velocity in miles per hour
 
 function timeCalc(d, v){ //parameters for function d as in distance and v as in velocity
