@@ -14,18 +14,21 @@ do{
 
 console.log(weight);
 
-
-var carry;
 var method;
 method = prompt("Will the weight be carried across the floor or the ceiling? Type 'floor' or 'ceiling.'", "");
 if (method === "ceiling"){
+    var carry;
     carry = 5;
 }else if (method === "floor"){
+    var carry;
     carry = 2;
 }else{
+    do{
     method = prompt("Type 'floor' or 'ceiling.'", "");
+    }while(!((method === "ceiling") || (method === "floor")))
 }
 
+console.log(carry);
 /*
 var ants = (weight * 10000) / carry;
 */
