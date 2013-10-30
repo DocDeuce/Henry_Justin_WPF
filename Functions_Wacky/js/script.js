@@ -2,17 +2,10 @@
 
 //How many Asian weaver ants would it take to carry a certain weight?
 
-/*var weight = prompt("Enter the weight to be carried in kilograms.", "");
-if ((isNaN(weight)) || (weight === "")){
-
-}*/
-
 var weight;
 do{
     weight = prompt("Enter the weight to be carried in kilograms.", "");
-}while((isNaN(weight)) || (weight === ""))
-
-console.log(weight);
+}while((isNaN(weight)) || (weight === ""));
 
 var method;
 method = prompt("Will the weight be carried across the floor or the ceiling? Type 'floor' or 'ceiling.'", "");
@@ -28,7 +21,11 @@ if (method === "ceiling"){
     }while(!((method === "ceiling") || (method === "floor")))
 }
 
-console.log(carry);
-/*
-var ants = (weight * 10000) / carry;
-*/
+var calcAnts = function(weight, carry){
+    var ants = (weight * 10000) / carry;
+    return ants;
+}
+
+var ants = calcAnts(weight, carry);
+
+console.log(ants);
