@@ -28,4 +28,5 @@ var calcAnts = function(weight, carry){ //Sets up function with parameters match
 
 var ants = calcAnts(weight, carry); //Calls the function and uses previously established variables as the arguments
 
-console.log("It would take " + ants + " Asian weaver ants to carry " + weight + "kg on the " + method + ".");//Gives the user the information
+alert("It would take " + ants + " Asian weaver ants to carry " + weight + "kg on the " + method + ".");//Gives the user the information
+console.log("It would take " + ants + " Asian weaver ants to carry " + weight + "kg on the " + method + ".");//Logs information
